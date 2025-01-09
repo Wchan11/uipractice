@@ -71,7 +71,7 @@ export default function ServiceSection() {
 
   return (
     <>
-      <section className='py-[clamp(32px,8.89vw,56px)] bg-white w-full'>
+      <section className='py-[clamp(32px,8.89vw,56px)] bg-white w-full '>
         <div className='w-full max-w-[768px] mx-auto'>
           <div className='flex-col gap-y-8 relative flex'>
             <div className='mb-8 px-4'>
@@ -154,7 +154,7 @@ export default function ServiceSection() {
         </div>
       </section>
       {/* ... details 섹션 ... */}
-      <details>
+      <details className='pb-8'>
         <summary className='flex list-none justify-center text-center font-pre text-sm text-gray-700'>
           <div className='inline-flex cursor-pointer items-center rounded-md py-1 hover:bg-gray-100'>
             <span>대행 서비스 보기</span>
@@ -162,7 +162,7 @@ export default function ServiceSection() {
           </div>
         </summary>
 
-        <div className="bg-[#424242] font-pre">
+        <div className="bg-[#424242] font-pre mt-8">
           <div className="mx-auto w-full max-w-[768px]">
             <div className="px-4 py-8 xs:p-12">
               {/* 데스크톱 뷰 */}
@@ -294,7 +294,7 @@ export default function ServiceSection() {
                   </p>
 
                 <Link 
-                  href="#inquiry" 
+                  href="/" 
                   className="w-full rounded-[15.56vw] bg-black py-[2.78vw] px-[8.89vw] text-center"
                 >
                   <p className="font-pre font-semibold text-[3.89vw] leading-[4.80vw] text-white">
