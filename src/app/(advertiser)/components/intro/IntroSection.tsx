@@ -19,11 +19,11 @@ export default function IntroSection() {
       <div className='mx-auto flex w-full max-w-[768px] flex-col items-center px-4 py-10'>
         <div className='mb-10 flex flex-col items-center text-center'>
           <h1 className='sr-only'>와이리 서비스 소개</h1>
-          <p className=' font-pre text-[clamp(18px,6.11vw,24px)] font-normal leading-[-1.5] tracking-tight text-subText'>
+          <p className=' font-pre md:text-[1.56rem] xs:text-[3.33vw] text-[3.89vw] font-normal leading-[-1.5] tracking-tight text-subText'>
             언제까지 인플루언서 마케팅에 많은 비용을 쓰실건가요?
           </p>
           <div className='flex flex-col items-center gap-x-1'>
-            <p className='font-pre text-[clamp(18px,6.11vw,24px)] font-bold leading-[-1.5] tracking-tight'>
+            <p className='font-pre md:text-[1.56rem] xs:text-[3.33vw] text-[6.11vw] font-bold leading-[-1.5] tracking-tight'>
               <span className='text-primaryColor'>무료로 검증된 인플루언서</span>
               <span className='text-black'>를 통해</span>
             </p>

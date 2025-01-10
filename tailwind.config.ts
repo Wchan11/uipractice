@@ -27,6 +27,7 @@ export default {
         footerText: '#9E9E9E', // 푸터 텍스트
         chatBot: '#367BA2', // 챗봇
         prevButton: '#D9D9D9', // 파트너에서 사용
+        'white-default': '#FFFFFF',
       },
       boxShadow: {
         qrBoxShadow: '0px 4px 13.2px 0px #5AA9A980',
@@ -53,8 +54,8 @@ export default {
           '100%': { transform: 'translateX(-50%)' },
         },
         'scroll-left': {
-          '0%': { transform: 'translateX(-50%)' },
-          '100%': { transform: 'translateX(0)' },
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
         },
         'scroll-down': {
           '0%': { transform: 'translateY(0)' },
@@ -62,8 +63,8 @@ export default {
         },
       },
       animation: {
-        'scroll-right': 'scroll-right 15s linear infinite', // 속도 증가
-        'scroll-left': 'scroll-left 15s linear infinite', // 속도 증가
+        'scroll-right': 'scroll-right 10s linear infinite', // 속도 증가
+        'scroll-left': 'scroll-left 20s linear infinite', // 속도 증가
         'scroll-down': 'scroll-down 25s linear infinite',
       },
     },
