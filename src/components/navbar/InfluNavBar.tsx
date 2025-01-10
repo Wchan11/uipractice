@@ -18,14 +18,14 @@ export default function InfluNavBar() {
             </span>
 
             <Button
-              href='/advertiser'
+              href='https://apps.apple.com/kr/app/%EC%99%80%EC%9D%B4%EB%A6%AC/id6471933852'
               variant='primary'
               className='min-h-9 w-[clamp(32px,10vw,48px)] min-w-9 xs:min-h-[26px]'
             >
               <FaApple className='h-4 w-4 xs:mr-1' />
               <span className='hidden xs:contents'>APP Store</span>
             </Button>
-            <Button href='/advertiser' variant='medium'>
+            <Button href='https://play.google.com/store/apps/details?id=com.wairiInc.wairi&hl=ko&pli=1' variant='medium'>
               <FaGooglePlay className='h-4 w-4 xs:mr-1' />
               <span className='hidden xs:contents'>Google Play</span>
             </Button>
